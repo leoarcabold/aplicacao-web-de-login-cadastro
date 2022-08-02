@@ -1,0 +1,6 @@
+Back-end - Tarefas
+ Modelar banco de dados
+ Modelar classes da API
+ Implementas regras de acesso
+ Integrar API ao banco de dados
+ Hospedar aplicação no Heroku
