@@ -11,9 +11,9 @@ import aplicacao.domain.model.Usuario;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
-	List<Usuario> findTodasByNomeContaining(String email);
+	List<Usuario> findTodosByNomeContaining(String nome);
 
-	Optional<Usuario> findByNome(String email);
+	Optional<Usuario> findByEmail(String email);
 
 	boolean existsByNome(String email);
 }
