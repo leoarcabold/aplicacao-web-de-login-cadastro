@@ -26,11 +26,11 @@ public class CadastroUsuarioService {
 
 		} catch (EmptyResultDataAccessException e) {
 			throw new EntidadeNaoEncontradaException(
-					String.format("Não existe um cadastro de cozinha com código %d", usuarioId));
+					String.format("Não existe um cadastro de usuário com código %d", usuarioId));
 
 		} catch (DataIntegrityViolationException e) {
 			throw new EntidadeEmUsoException(
-					String.format("Cozinha de código %d não pode ser removida, pois está em uso", usuarioId));
+					String.format("Usuário de código %d não pode ser removido", usuarioId));
 		}
 	}
 }
