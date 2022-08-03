@@ -7,10 +7,10 @@ Projeto de integração do back-end com o front-end por meio de uma tela de logi
 Tela de login - sistema de autenticação com back-end  e front-end
 
 #### Back-end - Tarefas
-- [ ] Modelar banco de dados
-- [ ] Modelar classes da API
-- [ ] Implementas regras de acesso
-- [ ] Integrar API ao banco de dados
+- [x] Modelar banco de dados
+- [x] Modelar classes da API
+- [x] Implementas regras de acesso
+- [x] Integrar API ao banco de dados
 - [ ] Hospedar aplicação no Heroku
 
 #### Front-end - Tarefas
